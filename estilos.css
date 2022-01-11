@@ -1,0 +1,438 @@
+*{
+    font-family: "Flexo-Demi",arial,sans-serif;
+}
+
+.hide-on-desktop
+{
+    display:none;
+}
+
+.contenido-principal
+{
+    background: #F1948A;
+    display: flex;
+}
+.pokedex
+{
+    background: #E74C3C;
+    height: 90px;
+}
+.pokemons
+{
+    background: #E74C3C;
+}
+.title-pokemon
+{
+    padding: 0.5px;
+    background: white;
+    border-radius: 10px;
+    margin: 4% 15%;
+}
+
+.description-pokemon {
+    display: inline-block;
+    text-align: center;
+    flex: 1 0 0;
+    order: 1;
+}
+
+.others-pokemon
+{
+    display: inline-block;
+}
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .flex-item-pokemons-group-one, .flex-item-pokemons-group-two {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    display: flex;
+    margin: 10px 20px;
+    background-color: #e3e4e5;
+    border-radius: 25px;
+  }
+
+  .flex-item-pokemons {
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 25px;
+  }
+ .capacity {
+    width: 60%;
+    background: white;
+    margin: 4% 9%;
+    border-radius: 20px;
+    padding: 54px 0;
+}
+.pokemonuno:hover {
+    background: #30a7d7;
+    cursor: pointer;
+}
+.pokemondos:hover {
+    background: #e6bc2f;
+    cursor: pointer;
+}
+.pokemontres:hover {
+    background: #E3350D;
+    cursor: pointer;
+}
+.pokemoncuatro:hover {
+    background: #4dad5b;
+    cursor: pointer;
+}
+@media only screen and  (max-width: 768px) {
+    .title-pokemon {
+        padding: 0.5px;
+        background: white;
+        border-radius: 10px;
+        margin: 8% 15%;
+    }
+    .pokemons {
+        background: #E74C3C;
+        padding: 0 0 15px;
+    }
+    .iconfire {
+        margin-top: 0px;
+    }
+    .class-pokemon {
+        width: 70px;
+    }
+    .pokedex {
+        background: #E74C3C;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .logo {
+        padding: 10px !important;
+    }
+    p {
+        font-size: 1em !important;
+    }
+    .logo-pokedex {
+        width: 28px !important;
+    }
+    h1.title-app {
+        font-size: 1.2em;
+        text-align: center;
+        margin-left: -5px !important;
+    }
+    h1.name-pokemon-group {
+        font-size: 1em !important;
+    }    
+    h2.name-pokemon {
+        font-size: 1em;
+    }
+    .pokemoncinco
+    {
+        width: 100%;
+    }
+    .capacity {
+        width: 82%;
+        background: white;
+        margin: 8% 0;
+        border-radius: 20px;
+        padding: 54px 0;
+    }
+    .flex-item-pokemons {
+        margin: 0px 10px;
+        padding: 5px;
+        width: 16%;
+        border-radius: 25px;
+    }
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        align-items: center;
+    }
+    .flex-item {
+        display: flex;
+        margin: 10px 15px;
+        background-color: #e3e4e5;
+        border-radius: 25px;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .pokemons {
+        background: #E74C3C;
+        padding: 0 0 15px;
+    }
+    .iconfire {
+        margin-top: 0px;
+    }
+    .class-pokemon {
+        width: 70px;
+    }
+    .pokedex {
+        background: #E74C3C;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding: 0 129px;
+    }
+    .logo {
+        padding: 10px !important;
+    }
+    p {
+        font-size: 1em !important;
+    }
+    .logo-pokedex {
+        width: 28px !important;
+    }
+    h1.title-app {
+        font-size: 1.2em;
+        text-align: center;
+        margin-left: -5px !important;
+    }
+    h1.name-pokemon-group {
+        font-size: 1em !important;
+    }    
+    h2.name-pokemon {
+        font-size: 1em;
+    }
+    .pokemoncinco
+    {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    .contenido-principal
+    {
+        flex-direction: column;
+    }
+    .capacity {
+        width: 82%;
+        background: white;
+        margin: auto;
+        margin-bottom: 10%;
+        border-radius: 20px;
+        padding: 78px 85px 38px;
+        position: relative;
+        margin-top: -25%;
+    }
+    .flex-item-pokemons {
+        margin: 0px 10px;
+        padding: 5px;
+        width: 100%;
+        border-radius: 25px;
+    }
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .flex-item {
+        display: flex;
+        margin: 10px 15px;
+        background-color: #e3e4e5;
+        border-radius: 25px;
+    }
+    .hide-on-mobile
+    {
+        display:none;
+    }
+      .hide-on-desktop
+    {
+        display:block;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .pokemons {
+        background: #E74C3C;
+        padding: 0 0 15px;
+    }
+    .iconfire {
+        margin-top: 0px;
+    }
+    .class-pokemon {
+        width: 70px;
+    }
+    .pokedex {
+        background: #E74C3C;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding: 0 96px;
+    }
+    .logo {
+        padding: 10px !important;
+    }
+    p {
+        font-size: 1em !important;
+    }
+    .logo-pokedex {
+        width: 28px !important;
+    }
+    h1.title-app {
+        font-size: 1.2em;
+        text-align: center;
+        margin-left: -5px !important;
+    }
+    h1.name-pokemon-group {
+        font-size: 1em !important;
+    }    
+    h2.name-pokemon {
+        font-size: 1em;
+    }
+    .pokemoncinco
+    {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    .contenido-principal
+    {
+        flex-direction: column;
+    }
+    .capacity {
+        width: 82%;
+        background: white;
+        margin: auto;
+        margin-bottom: 10%;
+        border-radius: 20px;
+        padding: 54px 52px;
+        position: relative;
+        margin-top: -25%;
+    }
+    .flex-item-pokemons {
+        margin: 0px 10px;
+        padding: 5px;
+        width: 100%;
+        border-radius: 25px;
+    }
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .flex-item {
+        display: flex;
+        margin: 10px 15px;
+        background-color: #e3e4e5;
+        border-radius: 25px;
+      }
+    .hide-on-mobile
+    {
+        display:none;
+    }
+      .hide-on-desktop
+    {
+        display:block;
+    }
+}
+
+
+@media only screen and (max-width : 320px) {
+    .pokemons {
+        background: #E74C3C;
+        padding: 0 0 15px;
+    }
+    .iconfire {
+        margin-top: 0px;
+    }
+    .class-pokemon {
+        width: 70px;
+    }
+    .pokedex {
+        background: #E74C3C;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding: 0 83px;
+    }
+    .logo {
+        padding: 10px !important;
+    }
+    p {
+        font-size: 1em !important;
+    }
+    .logo-pokedex {
+        width: 28px !important;
+    }
+    h1.title-app {
+        font-size: 1.2em;
+        text-align: center;
+        margin-left: -5px !important;
+    }
+    h1.name-pokemon-group {
+        font-size: 1em !important;
+    }    
+    h2.name-pokemon {
+        font-size: 1em;
+    }
+    .pokemoncinco
+    {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    .contenido-principal
+    {
+        flex-direction: column;
+    }
+    .capacity {
+        width: 82%;
+        background: white;
+        margin: auto;
+        margin-bottom: 10%;
+        border-radius: 20px;
+        padding: 54px 52px;
+        position: relative;
+        margin-top: -25%;
+    }
+    .flex-item-pokemons {
+        margin: 0px 10px;
+        padding: 5px;
+        width: 100%;
+        border-radius: 25px;
+    }
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .flex-item {
+        display: flex;
+        margin: 10px 15px;
+        background-color: #e3e4e5;
+        border-radius: 25px;
+      }
+      .hide-on-mobile
+      {
+          display:none;
+      }
+      .hide-on-desktop
+    {
+        display:block;
+    }
+}
